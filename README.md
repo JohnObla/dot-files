@@ -14,12 +14,12 @@
 1. Run Arch.exe to extract `rootfs` and register to WSL
    - Exe filename is using to the instance name to register. If you rename it you can register with a different name and have multiple installs.
 1. Run Arch.exe to extract `rootfs` and register to WSL
-1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/initial-setup.sh | bash`
+1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/custom-scripts/initial-setup.sh | bash`
 
 ### Create user
 
 1. Uncomment lines `%wheel ALL=(ALL) NOPASSWD: ALL` and `%sudo ALL=(ALL) ALL`
 1. Save file using `:wq`
-1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/user-setup.sh| bash`
+1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/custom-scripts/user-setup.sh bash`
 1. Run Windows command shell, go to the directory with Arch Linux, run `.\Arch.exe config --default-user john`. Now you have basic ArchLinux with user.
 1. Restart Arch Linux shell.

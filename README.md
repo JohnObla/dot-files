@@ -12,5 +12,4 @@
 1. Run Arch.exe to extract `rootfs` and register to WSL
    - Exe filename is using to the instance name to register. If you rename it you can register with a different name and have multiple installs.
 1. Run Arch.exe to extract `rootfs` and register to WSL
-1. Add custom pacman repo with additional packages
-   - `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/pacman_config.sh | bash`
+1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/pacman_config.sh | bash`

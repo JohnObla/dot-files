@@ -14,3 +14,9 @@ pacman -Syyu
 
 # install zsh
 pacman -S --noconfirm zsh
+
+# add sudo group
+groupadd sudo
+
+#change text editor and open sudoer file
+EDITOR=vim visudo

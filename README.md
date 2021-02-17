@@ -2,6 +2,8 @@
 
 ## Configuring Arch Linux on WSL2
 
+### Install Arch Linux system config
+
 1. Make sure WSL2 is already installed
    - [Microsoft docs](https://docs.microsoft.com/en-us/windows/wsl/install-win1)
    - A bios setting may need to be enabled for WSL2
@@ -13,3 +15,11 @@
    - Exe filename is using to the instance name to register. If you rename it you can register with a different name and have multiple installs.
 1. Run Arch.exe to extract `rootfs` and register to WSL
 1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/pacman_config.sh | bash`
+
+### Create user
+
+1. Uncomment lines `%wheel ALL=(ALL) NOPASSWD: ALL` and `%sudo ALL=(ALL) ALL`
+1. Save file using `:wq`
+1. Add new admin user: `useradd -m -G wheel,sudo -s /bin/zsh <username>`, use `-s /bin/bash` if you want bash instead of zsh.
+1. Set password for the new user: `passwd <username>`
+1. Run Windows command shell, go to the directory with Arch Linux, run `Arch.exe config --default-user <username>`. Now you have basic ArchLinux with user.

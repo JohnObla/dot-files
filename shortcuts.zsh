@@ -54,3 +54,4 @@ alias al="yarn add prettier eslint prettier-eslint --dev"
 alias yt="yarn test"
 alias ys="yarn start"
 alias itd="yarn add --dev jest @testing-library/react @testing-library/jest-dom @testing-library/dom babel-jest react-test-renderer"
+alias ls='ls -lAFh'

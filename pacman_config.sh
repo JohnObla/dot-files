@@ -11,3 +11,6 @@ pacman -Sy archlinux-keyring
 
 # update all packages to latest versions
 pacman -Syyu
+
+# install zsh
+pacman -S --noconfirm zsh

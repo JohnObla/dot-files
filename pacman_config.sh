@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # appends custom config to pacman.conf file
-cat ./custom_pacman.conf | tee -a /etc/pacman.conf
+curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/custom_pacman.conf | tee -a /etc/pacman.conf >/dev/null
 
 # refresh pacman gpg keys
 pacman-key --init

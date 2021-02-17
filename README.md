@@ -1,6 +1,6 @@
 # Dot Files
 
-## Installing Arch Linux on WSL2
+## Configuring Arch Linux on WSL2
 
 1. Make sure WSL2 is already installed
    - [Microsoft docs](https://docs.microsoft.com/en-us/windows/wsl/install-win1)
@@ -12,3 +12,5 @@
 1. Run Arch.exe to extract `rootfs` and register to WSL
    - Exe filename is using to the instance name to register. If you rename it you can register with a different name and have multiple installs.
 1. Run Arch.exe to extract `rootfs` and register to WSL
+1. Add custom pacman repo with additional packages
+   - `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/pacman_config.sh | bash`

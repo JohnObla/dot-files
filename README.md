@@ -20,6 +20,6 @@
 
 1. Uncomment lines `%wheel ALL=(ALL) NOPASSWD: ALL` and `%sudo ALL=(ALL) ALL`
 1. Save file using `:wq`
-1. Add new admin user: `useradd -m -G wheel,sudo -s /bin/zsh <username>`, use `-s /bin/bash` if you want bash instead of zsh.
-1. Set password for the new user: `passwd <username>`
-1. Run Windows command shell, go to the directory with Arch Linux, run `Arch.exe config --default-user <username>`. Now you have basic ArchLinux with user.
+1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/user_setup.zsh| zsh`
+1. Run Windows command shell, go to the directory with Arch Linux, run `.\Arch.exe config --default-user john`. Now you have basic ArchLinux with user.
+1. Restart Arch Linux shell.

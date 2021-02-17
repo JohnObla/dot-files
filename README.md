@@ -15,7 +15,7 @@
 1. Run Arch.exe to extract `rootfs` and register to WSL
 1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/custom-scripts/initial-setup.sh | bash`
 
-[\*Reference page](https://gist.github.com/ld100/3376435a4bb62ca0906b0cff9de4f94b)
+Reference page: [Migrating from Ubuntu on WSL to ArchLinux on WSL2](https://gist.github.com/ld100/3376435a4bb62ca0906b0cff9de4f94b)
 
 ### Create user
 

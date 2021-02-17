@@ -24,3 +24,7 @@ Reference page: [Migrating from Ubuntu on WSL to ArchLinux on WSL2](https://gist
 1. Run setup script: `curl -s https://raw.githubusercontent.com/johnobla/dot-files/main/custom-scripts/user-setup.sh bash`
 1. Run Windows command shell, go to the directory with Arch Linux, run `.\Arch.exe config --default-user john`. Now you have basic ArchLinux with user.
 1. Restart Arch Linux shell.
+
+## Unregister Arch linux
+
+Run in Windows Powershell: `wsl --unregister Arch`

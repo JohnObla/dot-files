@@ -5,7 +5,7 @@
         "revision": "1528860218da1b1a9c8c84f56a47393854f52b96"
       },
       "homebrew/core": {
-        "revision": "f223acfe16903f6f9bed481eb447cca2b5910a69"
+        "revision": "58f3a82b621cae82070219ca49bbdd7e1bed65cf"
       }
     },
     "brew": {
@@ -39,6 +39,41 @@
             }
           }
         }
+      },
+      "fish": {
+        "version": "3.1.2",
+        "bottle": {
+          "rebuild": 0,
+          "cellar": ":any_skip_relocation",
+          "prefix": "/home/linuxbrew/.linuxbrew",
+          "root_url": "https://linuxbrew.bintray.com/bottles",
+          "files": {
+            "arm64_big_sur": {
+              "url": "https://linuxbrew.bintray.com/bottles/fish-3.1.2.arm64_big_sur.bottle.tar.gz",
+              "sha256": "b1257836de799a5204be8289bde8008b616c2fc070b22fec914e044f0a4bd8f2"
+            },
+            "big_sur": {
+              "url": "https://linuxbrew.bintray.com/bottles/fish-3.1.2.big_sur.bottle.tar.gz",
+              "sha256": "ef7f5a2fd69ba2baed78d02ee162cc8fb85644161dd765d47b570b56db9569cf"
+            },
+            "catalina": {
+              "url": "https://linuxbrew.bintray.com/bottles/fish-3.1.2.catalina.bottle.tar.gz",
+              "sha256": "b158b7f8640feb7c622ff3ca92b1bd88565f274f3e761499f5926bb124eeff7d"
+            },
+            "mojave": {
+              "url": "https://linuxbrew.bintray.com/bottles/fish-3.1.2.mojave.bottle.tar.gz",
+              "sha256": "6797636eaba364d0cbbc0459103a8767598e985f01846cca6cb57c986dfee7b8"
+            },
+            "high_sierra": {
+              "url": "https://linuxbrew.bintray.com/bottles/fish-3.1.2.high_sierra.bottle.tar.gz",
+              "sha256": "2609577a0d9f6b661331adccf5d1d8e010662ffe128869757e0af9a6760e26fb"
+            },
+            "x86_64_linux": {
+              "url": "https://linuxbrew.bintray.com/bottles/fish-3.1.2.x86_64_linux.bottle.tar.gz",
+              "sha256": "0a16a290b3de72d04400f5471e5d4912e0415efcf792b4315e0221d5dc61e08b"
+            }
+          }
+        }
       }
     }
   },
@@ -47,7 +82,7 @@
       "Ubuntu 20.04.2 LTS (focal)": {
         "HOMEBREW_VERSION": "3.0.1",
         "HOMEBREW_PREFIX": "/home/linuxbrew/.linuxbrew",
-        "Homebrew/linuxbrew-core": "f223acfe16903f6f9bed481eb447cca2b5910a69",
+        "Homebrew/linuxbrew-core": "58f3a82b621cae82070219ca49bbdd7e1bed65cf",
         "GCC": "5.5.0"
       }
     }

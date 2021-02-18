@@ -11,5 +11,12 @@
     - ~/repos
 
 - shell:
-    # - [git submodule update --init --recursive, Installing submodules]
-    #    
+    - [git submodule update --init --recursive, Installing submodules]
+    -
+      command: './custom-scripts/update-packages.sh'
+      stdout: true
+      stderr: true 
+    -
+      command: './custom-scripts/homebrew-install.sh'
+      stdout: true
+      stderr: true 

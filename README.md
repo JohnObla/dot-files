@@ -9,7 +9,7 @@
 2. Click on Ubuntu 20.04 to run in terminal
 3. Enter a username, e.g. `john`
 4. Enter a password
-1. Run setup command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnobla/dot-files/main/custom-scripts/install-dotbot.sh)"`
+1. Run setup command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnobla/dot-files/main/.custom-scripts/install-dotbot.sh)"`
 
 ## Unregister Ubuntu 20.04
 

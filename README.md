@@ -28,3 +28,13 @@ Reference page: [Migrating from Ubuntu on WSL to ArchLinux on WSL2](https://gist
 ## Unregister Arch linux
 
 Run in Windows Powershell: `wsl --unregister Arch`
+
+## Install Ubuntu 20.04 LTS
+
+1. Make sure WSL2 is already installed
+   - [Microsoft docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+   - A bios setting may need to be enabled for WSL2
+1. Install Ubuntu 20.04 from Windows Store
+2. Click on Ubuntu 20.04 to run in terminal
+3. Enter a username, e.g. `john`
+4. Enter a password

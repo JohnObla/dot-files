@@ -1,0 +1,55 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "1528860218da1b1a9c8c84f56a47393854f52b96"
+      },
+      "homebrew/core": {
+        "revision": "f223acfe16903f6f9bed481eb447cca2b5910a69"
+      }
+    },
+    "brew": {
+      "gcc": {
+        "version": "5.5.0_7",
+        "bottle": {
+          "rebuild": 1,
+          "cellar": ":any",
+          "prefix": "/home/linuxbrew/.linuxbrew",
+          "root_url": "https://linuxbrew.bintray.com/bottles",
+          "files": {
+            "arm64_big_sur": {
+              "url": "https://linuxbrew.bintray.com/bottles/gcc-5.5.0_7.arm64_big_sur.bottle.1.tar.gz",
+              "sha256": "82f9ed75ca22c2120054b0011430a007eb28d3daa218e523d4c09210c5c32dea"
+            },
+            "big_sur": {
+              "url": "https://linuxbrew.bintray.com/bottles/gcc-5.5.0_7.big_sur.bottle.1.tar.gz",
+              "sha256": "8b5bbf48a1436297fe001eff470552db520a85c5bace19896572df4ad1a59e88"
+            },
+            "catalina": {
+              "url": "https://linuxbrew.bintray.com/bottles/gcc-5.5.0_7.catalina.bottle.1.tar.gz",
+              "sha256": "ad8caedc23b71e5c14eaf4bf5bc747e5ef73620b99b460ef0e17c6e80e17b971"
+            },
+            "mojave": {
+              "url": "https://linuxbrew.bintray.com/bottles/gcc-5.5.0_7.mojave.bottle.1.tar.gz",
+              "sha256": "62483f796012e79c433fee8690e817266b704d171d03cb5d6ce75ca558d959a0"
+            },
+            "x86_64_linux": {
+              "url": "https://linuxbrew.bintray.com/bottles/gcc-5.5.0_7.x86_64_linux.bottle.1.tar.gz",
+              "sha256": "8bde377e3d9ca28bfa842583accbacfa912666e71ffb5de7cb401663ca894c25"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "linux": {
+      "Ubuntu 20.04.2 LTS (focal)": {
+        "HOMEBREW_VERSION": "3.0.1",
+        "HOMEBREW_PREFIX": "/home/linuxbrew/.linuxbrew",
+        "Homebrew/linuxbrew-core": "f223acfe16903f6f9bed481eb447cca2b5910a69",
+        "GCC": "5.5.0"
+      }
+    }
+  }
+}

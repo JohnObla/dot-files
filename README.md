@@ -15,8 +15,8 @@
 1. Add homebrew to path:
     - `echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/john/.profile`
     - `eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
-1. Add homebrew dependencies: `sudo apt-get install build-essential`
-1. Brew recommends to install GCC: `brew install gcc`
+1. Add homebrew dependencies: `sudo apt-get -y install build-essential`
+1. Install brew files: `brew bundle --file ~/.dotfiles/custom-scripts/Brewfile`
 
 ## Unregister Ubuntu 20.04
 

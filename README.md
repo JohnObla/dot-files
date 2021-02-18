@@ -5,7 +5,7 @@
 ### Install Arch Linux system config
 
 1. Make sure WSL2 is already installed
-   - [Microsoft docs](https://docs.microsoft.com/en-us/windows/wsl/install-win1)
+   - [Microsoft docs](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
    - A bios setting may need to be enabled for WSL2
 1. [Go to ArchWSL repo](https://github.com/yuk7/ArchWSL)
 1. [Download zip file from latest release](https://github.com/yuk7/ArchWSL/releases/latest)

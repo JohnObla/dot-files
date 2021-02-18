@@ -38,3 +38,4 @@ Run in Windows Powershell: `wsl --unregister Arch`
 2. Click on Ubuntu 20.04 to run in terminal
 3. Enter a username, e.g. `john`
 4. Enter a password
+5. Run `sudo apt update && sudo apt upgrade -y` to check which packages need updating, and to update them.

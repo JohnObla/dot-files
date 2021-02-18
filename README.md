@@ -20,4 +20,4 @@ Uninstall Ubuntu 20.04 from Windows Start Menu
 - Allow script files to be executable: `chmod +x <filename>`
 - Update list of brew installs
     - Delete: `~/.dotfiles/custom-scripts/Brewfile`
-    - Run: `brew bundle dump
+    - Run: `brew bundle dump`

@@ -6,9 +6,14 @@
 
 - link:
     ~/.gitconfig:
+
     ~/.config/omf/init.fish:
-      create: true
       path: config/omf/init.fish
+      create: true
+
+    ~/.config/omf/aliases.fish:
+      path: config/omf/aliases.fish
+      create: true
 
 - create:
     - ~/repos

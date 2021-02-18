@@ -39,4 +39,4 @@ Run in Windows Powershell: `wsl --unregister Arch`
 3. Enter a username, e.g. `john`
 4. Enter a password
 5. Run `sudo apt update && sudo apt upgrade -y` to check which packages need updating, and to update them.
-6. Run `git clone git@github.com:johnobla/dot-files.git ./.dotfiles` to install dotfiles folder.
+6. Run `git clone https://github.com/johnobla/dot-files.git ./.dotfiles` to install dotfiles folder.

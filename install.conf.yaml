@@ -7,6 +7,10 @@
 - link:
     ~/.gitconfig:
 
+    ~/.config/fish/conf.d/omf.fish:
+      path: config/fish/conf.d/omf.fish
+      create: true
+
     ~/.config/omf/init.fish:
       path: config/omf/init.fish
       create: true
@@ -23,12 +27,12 @@
     -
       command: './.custom-scripts/update-packages.sh'
       stdout: true
-      stderr: true 
+    - 
+      command: './.custom-scripts/oh-my-fish-install.sh'
+      stdout: true
+      stderr: true stderr: true 
     -
       command: './.custom-scripts/homebrew-install.sh'
       stdout: true
       stderr: true 
-    - 
-      command: './.custom-scripts/oh-my-fish-install.sh'
-      stdout: true
-      stderr: true 
+     

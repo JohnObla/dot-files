@@ -1,0 +1,3 @@
+# brewfile is best for local debugging
+# https://www.worldlink.com.cn/en/osdir/homebrew-bundle.html
+Brewfile.lock.json

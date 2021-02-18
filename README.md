@@ -17,7 +17,11 @@
     - `eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
 1. Add homebrew dependencies: `sudo apt-get -y install build-essential`
 1. Install brew files: `brew bundle --file ~/.dotfiles/custom-scripts/Brewfile`
+1. Add fish to known shells: `sudo sh -c 'echo /usr/local/bin/fish >> /etc/shells'`
+1. Set fish as the default shell: `chsh -s /usr/local/bin/fish`
+1. Add brew binaries to in fish path: `set -U fish_user_paths /usr/local/bin $fish_user_paths`
 
+### Fish reference: https://gist.github.com/gagarine/cf3f65f9be6aa0e105b184376f765262
 ## Unregister Ubuntu 20.04
 
 - Uninstall Ubuntu 20.04 from Windows Start Menu

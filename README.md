@@ -10,7 +10,13 @@
 3. Enter a username, e.g. `john`
 4. Enter a password
 5. Run `sudo apt update && sudo apt upgrade -y` to check which packages need updating, and to update them.
-6. Run `git clone https://github.com/johnobla/dot-files.git ./.dotfiles` to install dotfiles folder.
+6. Clone dotfiles repo: `git clone https://github.com/johnobla/dot-files.git ./.dotfiles`.
+1. Install home brew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+1. Add homebrew to path:
+    - `echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/john/.profile`
+    - `eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+1. Add homebrew dependencies: `sudo apt-get install build-essential`
+1. Brew recommends to install GCC: `brew install gcc`
 
 ## Unregister Ubuntu 20.04
 

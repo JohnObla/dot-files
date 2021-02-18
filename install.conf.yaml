@@ -20,3 +20,7 @@
       command: './custom-scripts/homebrew-install.sh'
       stdout: true
       stderr: true 
+    - 
+      command:  './custom-scripts/oh-my-fish-install.sh'
+      stdout: true
+      stderr: true 

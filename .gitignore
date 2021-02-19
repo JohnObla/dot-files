@@ -1,3 +1,7 @@
-# brewfile is best for local debugging
+# brewfile.lock.json is best for local debugging
 # https://www.worldlink.com.cn/en/osdir/homebrew-bundle.html
 Brewfile.lock.json
+
+# neovim undo history
+config/nvim/undo
+

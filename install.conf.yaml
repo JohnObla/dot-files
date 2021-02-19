@@ -1,6 +1,10 @@
 - defaults:
     link:
       relink: true
+    shell:
+      command:
+        stdout: true
+        stderr: true
 
 - clean: ['~']
 
@@ -15,9 +19,8 @@
     - [git submodule update --init --recursive, Installing submodules]
     -
       command: './.custom-scripts/update-packages.sh'
-      stdout: true
     - 
       command: './.custom-scripts/oh-my-fish-install.sh'
-      stdout: true
-      stderr: true
+
+    - [chsh -s /usr/bin/fish, Make fish the default shell] 
       

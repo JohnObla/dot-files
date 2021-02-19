@@ -22,10 +22,6 @@
       stdout: true
       stderr: true
     -
-      command: './.custom-scripts/make-fish-default-shell.sh'
-      stdout: true
-      stderr: true
-    -
       command: './.custom-scripts/nvim-tmux-install.sh'
       stdout: true
       stderr: true

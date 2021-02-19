@@ -23,3 +23,12 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" set mapleader to space
+nnoremap <space> <nop>
+let mapleader = "\<space>"
+
+" buffer next shortcut
+nnoremap <leader>bn :bn<cr> ;buffer next
+
+" new tab shortcut
+nnoremap <leader>tn gt ;new tab

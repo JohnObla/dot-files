@@ -18,10 +18,14 @@
       stdout: true
       stderr: true
     - 
-      command: './.custom-scripts/oh-my-fish-install.sh'
+      command: './.custom-scripts/fish-install.sh'
       stdout: true
       stderr: true
     -
-      command: './.custom-scripts/make-fish-default-shell.fish'
+      command: './.custom-scripts/make-fish-default-shell.sh'
+      stdout: true
+      stderr: true
+    - 
+      command: './.custom-scripts/oh-my-fish-install.sh'
       stdout: true
       stderr: true

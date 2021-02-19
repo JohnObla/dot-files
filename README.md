@@ -8,6 +8,7 @@
 1. Install Ubuntu 20.04 from Windows Store
 2. Click on Ubuntu 20.04 to run in terminal
 3. Enter a username, e.g. `john`
+    - `make-fish-default-shell.sh` will fail if username is not `john`.
 4. Enter a password
 1. Run setup command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnobla/dot-files/main/.custom-scripts/install-dotbot.sh)"`
 

@@ -12,6 +12,7 @@
 `@@` - Repeats last `@` command
 
 ## Popular Shortcuts
+`cc` - Change in sentence\
 `ciw` - Change in word\
 `daw` - Cuts word and removes trailing space\
 `y4y` - Copies 4 lines down\

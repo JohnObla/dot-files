@@ -11,6 +11,7 @@
     - `fish-install.sh` will fail to set default shell if username is not `john`.
 4. Enter a password
 1. Run setup command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnobla/dot-files/main/.custom-scripts/install-dotbot.sh)"`
+1. Run `nvim` and enter command `:PlugInstall` to install nvim plugins
 
 ## Unregister Ubuntu 20.04
 

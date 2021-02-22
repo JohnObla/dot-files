@@ -8,7 +8,7 @@
 1. Install Ubuntu 20.04 from Windows Store
 2. Click on Ubuntu 20.04 to run in terminal
 3. Enter a username, e.g. `john`
-    - `fish-install.sh` will fail to set default shell if username is not `john`.
+    - `fish-install.sh` will fail to set default shell if username is not `john`
 4. Enter a password
 1. Run setup command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnobla/dot-files/main/.custom-scripts/install-dotbot.sh)"`
 1. Run `nvim` and enter command `:PlugInstall` to install nvim plugins

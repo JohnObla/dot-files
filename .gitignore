@@ -5,3 +5,7 @@ Brewfile.lock.json
 # neovim undo history
 config/nvim/undo
 
+# neovim netrw history
+# https://vi.stackexchange.com/a/10672
+config/nvim/.netrwhist
+

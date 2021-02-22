@@ -9,3 +9,6 @@ config/nvim/undo
 # https://vi.stackexchange.com/a/10672
 config/nvim/.netrwhist
 
+# neovim plugins
+config/nvim/plugged
+

@@ -1,3 +1,9 @@
+" vim-plug plugins
+call plug#begin('~/.config/nvim/plugged')
+    " csv viewer
+    Plug 'chrisbra/csv.vim'
+call plug#end()
+
 " can paste from ubuntu clipboard
 set clipboard+=unnamedplus
 
@@ -35,3 +41,4 @@ nnoremap <leader>bn :bn<cr> ;buffer next
 
 " new tab shortcut
 nnoremap <leader>tn gt ;new tab
+

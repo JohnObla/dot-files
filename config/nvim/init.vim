@@ -15,6 +15,9 @@ set undoreload=10000
 " set relative line number
 set relativenumber
 
+" set absolute line number as well
+set nu
+
 " use 4 spaces instead of tab()
 " copy indent from current line when starting a new line
 set autoindent

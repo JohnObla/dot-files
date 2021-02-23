@@ -7,7 +7,7 @@
 - link:
     ~/.config:
     ~/.gitconfig:
-    ~/.tmux:
+    ~/.tmux.conf:
 
 - create:
     - ~/repos

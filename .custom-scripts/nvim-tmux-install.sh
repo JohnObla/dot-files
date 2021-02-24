@@ -11,10 +11,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 sudo apt install tmux
 
 # install tpm
-[ ! -d "~/.tmux/plugins/tpm" ] \
+[ ! -d "$HOME/.tmux/plugins/tpm" ] \
     && git clone https://github.com/tmux-plugins/tpm \
-    "~/.tmux/plugins/tpm"
+    "$HOME/.tmux/plugins/tpm"
 
 # install tmuxp
 sudo apt-get install -y tmuxp
-

@@ -2,7 +2,7 @@
 
 # install neovim
 #sudo apt-get install -y neovim
-sudo snap install --edge nvim --classic # nightly build for LSP
+# need to run nightly build to get lsp
 
 # install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

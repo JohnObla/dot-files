@@ -8,6 +8,7 @@
     ~/.config:
     ~/.gitconfig:
     ~/.tmux.conf:
+    ~/.tmuxp:
 
 - create:
     - ~/repos

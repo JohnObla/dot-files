@@ -18,5 +18,8 @@ sudo apt-get install -y tmux
 # install fzf
 sudo apt-get install -y fzf
 
+# install ripgrep
+sudo apt-get install -y ripgrep
+
 # install tmuxp
 sudo apt-get install -y tmuxp

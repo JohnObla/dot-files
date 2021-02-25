@@ -7,4 +7,3 @@ sudo apt-get install -y fish
 
 # changes default shell for current logged-in user
 sudo chsh -s /usr/bin/fish "$LOGNAME"
-

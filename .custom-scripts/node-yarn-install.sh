@@ -8,8 +8,8 @@ sudo apt-get install -y build-essential
 curl -L https://git.io/n-install | bash -s -- -y
 
 # install all packages auto complete
-npm install --global all-the-package-names
+$HOME/n/bin/npm install --global all-the-package-names
 
 # install yarn
-npm install --global yarn
+$HOME/n/bin/npm install --global yarn
 

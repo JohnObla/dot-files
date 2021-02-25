@@ -28,6 +28,10 @@
       command: './.custom-scripts/nvim-tmux-install.sh'
       stdout: true
       stderr: true
+    -
+      command: './.custom-scripts/node-yarn-install.sh'
+      stdout: true
+      stderr: true
     - 
       command: './.custom-scripts/oh-my-fish-install.sh'
       stdout: true

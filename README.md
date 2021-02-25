@@ -11,7 +11,6 @@
 4. Enter a password
 1. Run setup command: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/johnobla/dot-files/main/.custom-scripts/install-dotbot.sh)"`
 1. Inside tmux, press `prefix shift+I` to install tmux plugins
-1. Run `nvim` and enter command `:PlugInstall` to install nvim plugins
 
 ## Unregister Ubuntu 20.04
 

@@ -1,3 +1,5 @@
+# Taken from https://github.com/oh-my-fish/theme-default
+# 
 # You can override some default options with config.fish:
 #
 #  set -g theme_short_path yes

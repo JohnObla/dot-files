@@ -1,7 +1,3 @@
-# Fish 
-alias reload="omf reload"
-
-# Git
 alias gs="git status"
 alias gcm="git commit --message"
 alias gp="git push"

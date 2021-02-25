@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # install neovim from nightly build (contains native LSP)
-curl -Lo /usr/local/bin/nvim https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+curl -Lo ~/.bin/nvim https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+# allow executable permissions
+chmod u+x ~/.bin/nvim
 
 # install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

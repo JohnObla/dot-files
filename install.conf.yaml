@@ -25,6 +25,10 @@
       stdout: true
       stderr: true
     -
+      command: './.custom-scripts/fisher-install.fish'
+      stdout: true
+      stderr: true
+    -
       command: './.custom-scripts/nvim-tmux-install.fish'
       stdout: true
       stderr: true

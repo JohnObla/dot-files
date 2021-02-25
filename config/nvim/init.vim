@@ -2,6 +2,8 @@
 call plug#begin('~/.config/nvim/plugged')
     " csv viewer
     Plug 'chrisbra/csv.vim'
+    " neovim language server protocol
+    Plug 'neovim/nvim-lspconfig'
 call plug#end()
 
 " can paste from ubuntu clipboard

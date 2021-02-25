@@ -22,6 +22,7 @@ sudo apt-get install -y tmux
     "$HOME/.tmux/plugins/tpm"
 
 # install tmux plugins through command line
+# https://github.com/tmux-plugins/tpm/blob/master/docs/managing_plugins_via_cmd_line.md
 $HOME/.tmux/plugins/tpm/bin/install_plugins
 
 # install fzf

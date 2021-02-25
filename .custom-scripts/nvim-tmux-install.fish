@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/fish
 
 # install neovim from nightly build (contains native LSP)
 curl -Lo ~/.bin/nvim https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
@@ -25,3 +25,4 @@ sudo apt-get install -y ripgrep
 
 # install tmuxp
 sudo apt-get install -y tmuxp
+

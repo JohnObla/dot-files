@@ -25,14 +25,11 @@
       stdout: true
       stderr: true
     -
-      command: './.custom-scripts/nvim-tmux-install.sh'
+      command: './.custom-scripts/nvim-tmux-install.fish'
       stdout: true
       stderr: true
     -
-      command: './.custom-scripts/node-yarn-install.sh'
+      command: './.custom-scripts/node-yarn-install.fish'
       stdout: true
       stderr: true
-    - 
-      command: './.custom-scripts/oh-my-fish-install.sh'
-      stdout: true
-      stderr: true
+

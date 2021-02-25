@@ -12,3 +12,6 @@ config/nvim/.netrwhist
 # neovim plugins
 config/nvim/plugged
 
+# config store
+config/configstore
+

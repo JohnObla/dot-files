@@ -1,6 +1,9 @@
 # import aliases
 . ~/.config/omf/aliases.fish
 
+# add nvim to path
+set PATH ~/.bin $PATH
+
 # set default editor to neovim 
 set -gx EDITOR nvim
 

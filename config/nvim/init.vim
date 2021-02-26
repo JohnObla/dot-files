@@ -1,15 +1,6 @@
 " vim-plug plugins
 call plug#begin('~/.config/nvim/plugged')
-    " csv viewer
-    Plug 'chrisbra/csv.vim'
-    " neovim language server protocol
-    Plug 'neovim/nvim-lspconfig'
 call plug#end()
-
-" JS and TS language server
-lua << EOF
-require'lspconfig'.tsserver.setup{}
-EOF
 
 " can paste from ubuntu clipboard
 set clipboard+=unnamedplus

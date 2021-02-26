@@ -13,6 +13,3 @@ npm install --global all-the-package-names
 # install yarn
 npm install --global yarn
 
-# install typescript language server
-npm install -g typescript typescript-language-server
-

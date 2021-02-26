@@ -1,5 +1,7 @@
 " vim-plug plugins
 call plug#begin('~/.config/nvim/plugged')
+" vim-tmux navigator
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
 " can paste from ubuntu clipboard
@@ -15,6 +17,9 @@ set undodir=$HOME/.config/nvim/undo
 " number of undo saved
 set undolevels=10000
 set undoreload=10000
+
+" leave some lines after cursor when scrolling
+set scrolloff=10
 
 " set relative line number
 set relativenumber

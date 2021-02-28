@@ -8,5 +8,5 @@ source $HOME/.config/nvim/config/general.vimrc
 source $HOME/.config/nvim/config/keys.vimrc
 
 " coc.nvim config
-" source $HOME/.config/nvim/config/coc.vimrc
+source $HOME/.config/nvim/config/coc.vimrc
 

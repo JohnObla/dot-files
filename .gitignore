@@ -15,6 +15,3 @@ config/nvim/plugged
 # config store
 config/configstore
 
-# coc settings
-config/coc
-

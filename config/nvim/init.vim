@@ -1,50 +1,9 @@
-" vim-plug plugins
-call plug#begin('~/.config/nvim/plugged')
-" vim-tmux navigator
-Plug 'christoomey/vim-tmux-navigator'
-call plug#end()
+" plugin manager
+source $HOME/.config/nvim/config/init.vimrc 
 
-" can paste from ubuntu clipboard
-set clipboard+=unnamedplus
+" general settings
+source $HOME/.config/nvim/config/general.vimrc 
 
-" allows file to be modified by multiple neovim processes
-set noswapfile
-
-" save undo-trees in files
-set undofile
-set undodir=$HOME/.config/nvim/undo
-
-" number of undo saved
-set undolevels=10000
-set undoreload=10000
-
-" leave some lines after cursor when scrolling
-set scrolloff=10
-
-" set relative line number
-set relativenumber
-
-" set absolute line number as well
-set nu
-
-" use 4 spaces instead of tab()
-" copy indent from current line when starting a new line
-set autoindent
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-
-" set mapleader to space
-nnoremap <space> <nop>
-let mapleader = "\<space>"
-
-" buffer next shortcut
-nnoremap <leader>bn :bn<cr> ;buffer next
-
-" new tab shortcut
-nnoremap <leader>tn gt ;new tab
-
-" rebind horizontal split
-nnoremap <c-w>h <c-w>s
+" custom keymaps
+source $HOME/.config/nvim/config/keys.vimrc
 

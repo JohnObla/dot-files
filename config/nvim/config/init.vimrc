@@ -15,7 +15,7 @@ Plug 'jparise/vim-graphql'
 " coc autocomplete
 " https://medium.com/@s1n7ax/neovim-for-typescript-react-development-fdc7082c8a78
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-prettier']
+let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-yank', 'coc-eslint', 'coc-prettier']
 
 call plug#end()
 

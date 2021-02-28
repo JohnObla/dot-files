@@ -32,3 +32,5 @@ sudo apt-get install -y ripgrep
 # install tmuxp
 sudo apt-get install -y tmuxp
 
+# install ranger
+sudo apt-get install -y ranger

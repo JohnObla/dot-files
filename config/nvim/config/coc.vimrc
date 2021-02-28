@@ -1,4 +1,10 @@
 " coc.nvim config
+
+" prevent syntax highlighting from getting out of sync
+" https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+
 " https://github.com/neoclide/coc.nvim#example-vim-configuration
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some

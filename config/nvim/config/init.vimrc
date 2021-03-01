@@ -34,5 +34,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 
+" vim snippets
+Plug 'honza/vim-snippets'
+
 call plug#end()
 

@@ -18,4 +18,5 @@ config/configstore
 # coc folder
 config/coc/extensions
 config/coc/list*
+config/coc/snippets-mru
 

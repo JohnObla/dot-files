@@ -37,5 +37,8 @@ Plug 'tpope/vim-repeat'
 " auto completes brackets
 Plug 'jiangmiao/auto-pairs'
 
+" ale linter
+Plug 'dense-analysis/ale'
+
 call plug#end()
 

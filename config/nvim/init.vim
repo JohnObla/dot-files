@@ -13,3 +13,5 @@ source $HOME/.config/nvim/config/coc.vimrc
 " ranger config
 source $HOME/.config/nvim/config/ranger.vimrc
 
+" ale config
+source $HOME/.config/nvim/config/ale.vimrc

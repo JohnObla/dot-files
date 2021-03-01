@@ -1,5 +1,22 @@
 " coc.nvim config
 
+" coc snippets uses tab
+" https://github.com/neoclide/coc-snippets
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_snippet_next = '<tab>'
+let g:coc_snippet_prev = '<S-tab>'
+
+
 " prevent syntax highlighting from getting out of sync
 " https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart

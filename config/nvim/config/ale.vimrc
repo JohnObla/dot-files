@@ -10,17 +10,16 @@ let g:ale_disable_lsp = 1
 
 " Configure linters/fixers
 let g:ale_fixers = {
-\  'css': ['prettier'],
-\  'handlebars': ['prettier'],
 \  'html': ['prettier'],
-\  'javascript': ['prettier', 'eslint'],
-\  'json': ['prettier'],
-\  'markdown': ['prettier'],
-\  'rust': ['rustfmt'],
+\  'css': ['prettier'],
 \  'sass': ['prettier'],
+\  'javascript': ['prettier', 'eslint'],
+\  'typescriptreact': ['prettier', 'eslint'],
 \  'typescript': ['prettier', 'eslint'],
 \  'typescriptreact': ['prettier', 'eslint'],
+\  'json': ['prettier'],
 \  'yaml': ['prettier'],
+\  'markdown': ['prettier'],
 \ }
 
 " Set this variable to 1 to fix files when you save them.
@@ -34,4 +33,4 @@ let g:ale_sign_info = "i"
 
 " Show error info for line when cursor is on that line
 let g:ale_virtualtext_cursor = 1
-let g:ale_virtualtext_prefix = "🔥 "
+let g:ale_virtualtext_prefix = "🔍"

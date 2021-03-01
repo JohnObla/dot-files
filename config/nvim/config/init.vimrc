@@ -37,5 +37,14 @@ Plug 'francoiscabrol/ranger.vim'
 " vim snippets
 Plug 'honza/vim-snippets'
 
+" vim surround
+Plug 'tpope/vim-surround'
+
+" vim repeat
+Plug 'tpope/vim-repeat'
+
+" auto completes brackets
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
 

@@ -17,8 +17,5 @@ config/configstore
 
 # coc folder
 config/coc/extensions
-config/coc/list-diagnostics-history.json
-config/coc/list-lists-history.json
-config/coc/list-symbols-history.json
-config/coc/lists
+config/coc/list*
 

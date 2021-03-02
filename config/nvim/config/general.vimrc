@@ -26,10 +26,11 @@ set nu
 " use 4 spaces instead of tab()
 " copy indent from current line when starting a new line
 set autoindent
+set smartindent
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " allow smartcase
 set ignorecase

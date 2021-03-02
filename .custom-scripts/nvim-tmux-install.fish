@@ -1,7 +1,7 @@
 #!/usr/bin/fish
 
-# install neovim
-sudo apt-get install -y neovim
+# install neovim from nightly build (contains native LSP)
+curl -Lo $HOME/bin/nvim https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
 
 # install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

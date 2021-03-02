@@ -12,9 +12,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 
-" vim snippets
-Plug 'honza/vim-snippets'
-
 " vim surround
 Plug 'tpope/vim-surround'
 

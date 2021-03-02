@@ -6,6 +6,9 @@ curl -Lo $HOME/bin/nvim https://github.com/neovim/neovim/releases/download/night
 # allow neovim to be executable
 sudo chmod +x $HOME/bin/nvim
 
+# install tsserver
+yarn global add typescript typescript-language-server
+
 # install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'

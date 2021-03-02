@@ -13,3 +13,5 @@ nnoremap <leader>tn gt ;new tab
 " rebind horizontal split
 nnoremap <c-w>h <c-w>s
 
+" reload vimrc
+nnoremap <leader>rv :source $MYVIMRC<CR>

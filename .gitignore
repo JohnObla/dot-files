@@ -14,9 +14,3 @@ config/nvim/plugged
 
 # config store
 config/configstore
-
-# coc folder
-config/coc/extensions
-config/coc/list*
-config/coc/snippets-mru
-

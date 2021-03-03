@@ -4,8 +4,9 @@ call plug#begin('~/.config/nvim/plugged')
 " vim-tmux navigator
 Plug 'christoomey/vim-tmux-navigator'
 
-" lsp
+" lsp and completion
 Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
 
 " fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

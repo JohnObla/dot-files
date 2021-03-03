@@ -9,3 +9,6 @@ set PATH $N_PREFIX/bin $PATH
 
 # set long path for prompt
 set -g theme_short_path no
+
+# add nvim to path
+set PATH ~/bin $PATH

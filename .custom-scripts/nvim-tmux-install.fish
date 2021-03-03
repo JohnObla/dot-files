@@ -1,7 +1,24 @@
 #!/usr/bin/fish
 
-# install neovim
-sudo apt-get install -y neovim
+# install neovim from nightly build (contains native LSP)
+curl -Lo $HOME/bin/nvim https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+
+# allow neovim to be executable
+sudo chmod +x $HOME/bin/nvim
+
+# install language servers
+# https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md
+npm install --global \
+bash-language-server \
+vscode-css-languageserver-bin \
+dockerfile-language-server-nodejs \
+graphql-language-service-cli \
+vscode-html-languageserver-bin \
+vscode-json-languageserver \
+typescript  \
+typescript-language-server  \
+vim-language-server
+# todo: add lua
 
 # install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

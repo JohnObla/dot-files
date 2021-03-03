@@ -15,4 +15,4 @@ source $HOME/.config/nvim/config/ale.vimrc
 
 "lsp configs
 source $HOME/.config/nvim/config/lsp-core.vimrc
-source $HOME/.config/nvim/config/lsp-core.vimrc
+source $HOME/.config/nvim/config/lsp-servers.vimrc

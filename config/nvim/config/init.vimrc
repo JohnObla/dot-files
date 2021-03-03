@@ -12,6 +12,11 @@ Plug 'nvim-lua/completion-nvim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
+" telescope fuzzy search finder
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 " ranger's dependency and ranger
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'

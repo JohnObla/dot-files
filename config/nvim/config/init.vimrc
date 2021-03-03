@@ -8,6 +8,10 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 
+" snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 " fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
